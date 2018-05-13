@@ -1,0 +1,36 @@
+$primary: #e53935;
+
+h1 {
+	color: $primary;
+}
+
+.logoImg {
+	width: 200px !important;
+	padding-top: 10px;
+	padding-left: 30px;
+}
+
+nav {
+	height: 125px !important;
+	background-color: $primary ;
+  a {
+    font-size: 20px !important;
+  }
+}
+
+.tableStyle {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.addTrainingButton {
+	display: block;
+	width: 100%;
+}
+
+footer {
+  background-color: $primary !important;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
